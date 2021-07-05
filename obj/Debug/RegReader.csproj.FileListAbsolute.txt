@@ -1,0 +1,10 @@
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\bin\Debug\RegReader.exe.config
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\bin\Debug\RegReader.exe
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\bin\Debug\RegReader.pdb
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.csproj.AssemblyReference.cache
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.Form1.resources
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.Properties.Resources.resources
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.csproj.GenerateResource.cache
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.csproj.CoreCompileInputs.cache
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.exe
+C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.pdb
