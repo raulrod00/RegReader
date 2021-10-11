@@ -8,3 +8,13 @@ C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegR
 C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.csproj.CoreCompileInputs.cache
 C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.exe
 C:\Users\raulr\Documents\Unity Projects\DiagnosisMurder\RegReader\obj\Debug\RegReader.pdb
+C:\Users\omlab-admin\Documents\GitHub\RegReader\bin\Debug\RegReader.exe.config
+C:\Users\omlab-admin\Documents\GitHub\RegReader\bin\Debug\RegReader.exe
+C:\Users\omlab-admin\Documents\GitHub\RegReader\bin\Debug\RegReader.pdb
+C:\Users\omlab-admin\Documents\GitHub\RegReader\obj\Debug\RegReader.csproj.AssemblyReference.cache
+C:\Users\omlab-admin\Documents\GitHub\RegReader\obj\Debug\RegReader.Form1.resources
+C:\Users\omlab-admin\Documents\GitHub\RegReader\obj\Debug\RegReader.Properties.Resources.resources
+C:\Users\omlab-admin\Documents\GitHub\RegReader\obj\Debug\RegReader.csproj.GenerateResource.cache
+C:\Users\omlab-admin\Documents\GitHub\RegReader\obj\Debug\RegReader.csproj.CoreCompileInputs.cache
+C:\Users\omlab-admin\Documents\GitHub\RegReader\obj\Debug\RegReader.exe
+C:\Users\omlab-admin\Documents\GitHub\RegReader\obj\Debug\RegReader.pdb

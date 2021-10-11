@@ -45,7 +45,7 @@ namespace RegReader
 
         // Variables for logging
         StreamWriter logger; // Creates a logger :)
-        public string userName = "raulr"; // Can change user outside of library
+        public string userName = "omlab-admin"; // Can change user outside of library
 
         // Variables for received bytes
         private byte[] recBuffer;
