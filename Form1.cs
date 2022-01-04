@@ -172,13 +172,7 @@ namespace RegReader
         public bool SendCommand(double xPos, double yPos, double zPos, double uPos, double vPos, double wPos)
         {
 
-            errTracker = /*(Math.Abs(xPos - pX) > velLimit) || // Verifies that velocity is within limits
-                         (Math.Abs(yPos - pY) > velLimit) || // Verifies that velocity is within limits
-                         (Math.Abs(zPos - pZ) > velLimit) || // Verifies that velocity is within limits
-                         (Math.Abs(uPos - pU) > velLimit) || // Verifies that velocity is within limits
-                         (Math.Abs(vPos - pV) > velLimit) || // Verifies that velocity is within limits
-                         (Math.Abs(wPos - pW) > velLimit) || // Verifies that velocity is within limits*/
-                         (xPos >= 450) || // Verifies that max arm length is not exceeded
+            errTracker = (xPos >= 450) || // Verifies that max arm length is not exceeded
                          (yPos >= 450) || // Verifies that max arm length is not exceeded
                          (zPos >= 450) || // Verifies that max arm length is not exceeded
                          (uPos >= 450) || // Verifies that max arm length is not exceeded
