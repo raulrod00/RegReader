@@ -77,10 +77,11 @@ namespace RegReader
 
                 string receivedString = BitConverter.ToString(recBuffer);
 
+                receivedLogger.Write("Hi ");
                 receivedLogger.WriteLine(receivedString);
                 receivedLogger.Flush();
 
-                Form.ActiveForm.Invoke(new Action(() => replyBox.Text = receivedString));
+                replyBox.Invoke(new Action(() => replyBox.Text = receivedString));
             });
             Thread.Sleep(5);
 
@@ -138,6 +139,7 @@ namespace RegReader
             byte[] sendBuf = HexStringToByteArray(sendStr);
             //stats.Text = sendStr;
 
+
             /* UNCOMMENT WHEN READY TO SEND!*/
             ThreadPool.QueueUserWorkItem(delegate
             {
@@ -148,16 +150,18 @@ namespace RegReader
 
                 string receivedString = BitConverter.ToString(recBuffer);
 
+                receivedLogger.Write("Woah ");
                 receivedLogger.WriteLine(receivedString);
                 receivedLogger.Flush();
 
-                Form.ActiveForm.Invoke(new Action(() => replyBox.Text = replyBox.Text + "\r\n" + receivedString));
+                replyBox.Invoke(new Action(() => replyBox.Text = replyBox.Text + "\r\n" + receivedString));
 
             });
             Thread.Sleep(5);
 
             // Send it!
             sendClient.Send(sendBuf, sendBuf.Length, mboxIPE);
+
 
             // Send the command to the log
             logger.Write(DateTime.Now.ToString("hh:mm:ss.fff"));
